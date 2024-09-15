@@ -1,0 +1,71 @@
+body{
+    background-color: grey;
+    padding: 1em;
+    min-height: 92vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    width: 50%;
+    min-width: 450px;
+    min-height: 50px;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.nombre{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*color: #00aa00;*/
+}
+
+h2{
+    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+    color: red;
+}
+
+.link_ejercicio{
+    color: red;
+}
+
+
+
+
+
+.contenedor_enunciado{
+    margin: 4em;
+    /*height: 100%;*/
+
+    & iframe{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+
+
+
+.matriz{
+    width: 100%;
+    border: solid 2px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 40px;
+    display: grid;
+    place-items: center;
+}
+.numero_de_la_matriz{
+
+}
+
+
+@media screen and (max-width: 499px){
+    body{
+        background-color: #fff;
+    }
+}
+
+

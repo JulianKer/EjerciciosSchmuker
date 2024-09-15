@@ -1,0 +1,26 @@
+.formulario_select{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.contenedor_dados{
+    /*border: solid 2px red;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    & .cada_dado{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+img{
+    width: 120px;
+    /*border: solid 2px blue;*/
+}
+
+span{
+    font-family: "Monospace", monospace;
+    font-size: 1.5em;
+}
